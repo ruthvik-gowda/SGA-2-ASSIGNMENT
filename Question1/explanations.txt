@@ -1,0 +1,135 @@
+QUESTION 1 - EXPLANATIONS
+
+1. Command:
+pwd
+
+Explanation:
+Displayed the current working directory to verify the current location before starting the assignment.
+
+--------------------------------------------------
+
+2. Command:
+mkdir -p ~/SGA-2-ASSIGNMENT/Question1
+
+Explanation:
+Created the Question1 directory along with any required parent directories using the -p option.
+
+--------------------------------------------------
+
+3. Command:
+cd ~/SGA-2-ASSIGNMENT/Question1
+
+Explanation:
+Changed the current working directory to the Question1 folder.
+
+--------------------------------------------------
+
+4. Command:
+pwd
+
+Explanation:
+Verified that the working directory had changed successfully.
+
+--------------------------------------------------
+
+5. Command:
+mkdir submissions
+
+Explanation:
+Created a directory named submissions to store the sample assignment files.
+
+--------------------------------------------------
+
+6. Command:
+echo "Assignment by Alice" > submissions/alice.txt
+
+Explanation:
+Created the file alice.txt and redirected the given text into it using the > operator.
+
+--------------------------------------------------
+
+7. Command:
+echo "Assignment by Bob" > submissions/bob.txt
+
+Explanation:
+Created another sample submission file containing Bob's assignment.
+
+--------------------------------------------------
+
+8. Command:
+cp submissions/alice.txt submissions/alice_duplicate.txt
+
+Explanation:
+Copied Alice's submission to create a duplicate file for testing duplicate detection.
+
+--------------------------------------------------
+
+9. Command:
+echo "Assignment by Charlie" > submissions/charlie.txt
+
+Explanation:
+Created another unique submission file for testing.
+
+--------------------------------------------------
+
+10. Command:
+ls -l submissions
+
+Explanation:
+Listed all files in the submissions directory with detailed information to verify that the files were created successfully.
+
+--------------------------------------------------
+
+11. Command:
+nano duplicate_backup.sh
+
+Explanation:
+Created and edited the shell script used to identify duplicate files, back up unique files, generate a report, and store errors separately.
+
+--------------------------------------------------
+
+12. Command:
+chmod +x duplicate_backup.sh
+
+Explanation:
+Granted execute permission to the shell script so that it could be run directly.
+
+--------------------------------------------------
+
+13. Command:
+./duplicate_backup.sh
+
+Explanation:
+Executed the shell script. It processed the submissions, detected duplicates, created backups of unique files, generated a report, and stored any errors in a separate file.
+
+--------------------------------------------------
+
+14. Command:
+ls
+
+Explanation:
+Listed the contents of the current directory to verify that the required output files and folders were created.
+
+--------------------------------------------------
+
+15. Command:
+cat report
+
+Explanation:
+Displayed the generated report showing the number of processed files, duplicate files, and backed-up files.
+
+--------------------------------------------------
+
+16. Command:
+ls backup
+
+Explanation:
+Listed the files stored in the backup directory to confirm that only unique submissions were backed up.
+
+--------------------------------------------------
+
+17. Command:
+cat errors
+
+Explanation:
+Displayed the contents of the error file to check whether any errors occurred during execution.
