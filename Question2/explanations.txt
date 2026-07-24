@@ -1,0 +1,56 @@
+QUESTION 2 - EXPLANATIONS
+
+1. Command:
+mkdir -p ~/SGA-2-ASSIGNMENT/Question2
+
+Explanation:
+Created the Question2 directory along with any required parent directories.
+
+--------------------------------------------------
+
+2. Command:
+cd ~/SGA-2-ASSIGNMENT/Question2
+
+Explanation:
+Changed the current working directory to the Question2 folder.
+
+--------------------------------------------------
+
+3. Command:
+pwd
+
+Explanation:
+Verified that the current working directory was Question2.
+
+--------------------------------------------------
+
+4. Command:
+nano process_monitor.c
+
+Explanation:
+Created and edited the C program implementing process creation, monitoring, signal handling, and zombie process prevention.
+
+--------------------------------------------------
+
+
+5. Command:
+gcc process_monitor.c -o process_monitor
+
+Explanation:
+Compiled the C source file and generated an executable named process_monitor.
+
+--------------------------------------------------
+
+6. Command:
+./process_monitor
+
+Explanation:
+Executed the program. It created a child process, monitored it, terminated it when necessary, and used waitpid() to prevent zombie processes.
+
+--------------------------------------------------
+
+7. Command:
+ls
+
+Explanation:
+Listed the files in the current directory to verify that the source file and executable were present.
