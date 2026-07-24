@@ -1,0 +1,55 @@
+QUESTION 3 - EXPLANATIONS
+
+1. Command:
+mkdir -p ~/SGA-2-ASSIGNMENT/Question3
+
+Explanation:
+Created the Question3 directory along with any required parent directories.
+
+--------------------------------------------------
+
+2. Command:
+cd ~/SGA-2-ASSIGNMENT/Question3
+
+Explanation:
+Changed the current working directory to the Question3 folder.
+
+--------------------------------------------------
+
+3. Command:
+pwd
+
+Explanation:
+Verified that the current working directory was Question3.
+
+--------------------------------------------------
+
+4. Command:
+nano file_processing.c
+
+Explanation:
+Created and edited the C program that uses Linux system calls for file creation, reading, writing, updating, and retrieving records.
+
+--------------------------------------------------
+
+5. Command:
+gcc file_processing.c -o file_processing
+
+Explanation:
+Compiled the C source file and generated an executable named file_processing.
+
+--------------------------------------------------
+
+6. Command:
+./file_processing
+
+Explanation:
+Executed the program. It created the employee data file, wrote records, updated a specific record using lseek(), and retrieved a record from the file.
+
+--------------------------------------------------
+
+7. Command:
+ls
+
+Explanation:
+Listed the contents of the current directory to verify that the source file, executable, and employee data file were created successfully.
