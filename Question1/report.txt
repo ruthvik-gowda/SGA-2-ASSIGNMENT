@@ -1,0 +1,3 @@
+Files processed: 4
+Duplicate files: 1
+Files backed up: 3
