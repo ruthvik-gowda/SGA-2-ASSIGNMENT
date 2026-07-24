@@ -1,0 +1,12 @@
+QUESTION 5 - EXPLANATIONS
+
+This question is theoretical and does not require execution of Linux commands.
+
+The answer evaluates the recovery mechanisms available in vi:
+- Swap files
+- Undo history
+- Registers
+- Backup files
+- Auto-recovery
+
+It concludes that the combination of swap files and vi's auto-recovery feature is the most reliable strategy because it restores the most recent unsaved changes after a system crash. Backup files provide an additional safeguard by preserving the previous version of the file.
